@@ -1,27 +1,14 @@
-# SuperHeroesFront
+# HeroesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+## Dev
 
-## Development server
+1. Clonar el proyecto
+2. Ejecutar ```npm install```
+3. Levantar backend en una terminal ```npm run backend```
+4. Ejecutar la app en otra terminal ```npm start``` o bien ```ng serve -o```
+5. Abrir el navegador en http://localhost:4200/ si no se esta usando otro puerto para ver la aplicación en acción
+6. Para añadir una imagen al crear el heroe en el campo 'Alternative image' debe añadirla en la ruta ```assets/heroes/image.png``` como por ejemplo ```assets/heroes/dc-flash.jpg```
+7. El usuario es ```michael@gmail.com``` y la contraseña es ```123456```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+// NOTA
+Profe este es un frontend que tenia de un curso pago de udemy que me sirvio para avanzar en mi carrera, sin embargo en cuanto a datos y tablas no cumple con los requisitos que usted pidio que eran minimo 5, en este caso en la carpeta base hay una imagen llamada Modelo Tienda que me parece que se adapta mas al proyecto de la clase
